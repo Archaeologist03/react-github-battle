@@ -9,6 +9,11 @@ ul li {
     list-style-type: none;
 }
 
+a {
+    text-decoration: none;
+    color: red;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -48,4 +53,18 @@ ul li {
 .popular-rank {
     font-size: 20px;
     margin: 10px;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav li {
+    margin-right: 15px;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
